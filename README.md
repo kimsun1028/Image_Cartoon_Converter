@@ -6,14 +6,14 @@ A Python tool using OpenCV to transform standard images into cartoon-style rende
 
 ### 1. Effective Demo (Success Case)
 This case shows a successful transformation with clear boundaries and vibrant colors.
-![Original](image_0.png)
+![Original](image_0.jpg)
 ![Effective Demo](screenshot_0.png)
 * **Input Image**: `image_0.jpg`
 * **Why it works**: The subject has high contrast with the background, and the pixel density is optimal for the fixed parameters in the script, allowing for clean and sharp outlines.
 
 ### 2. Ineffective Demo (Failure Case)
 This case demonstrates where the algorithm struggles to produce a clean cartoon effect.
-![Original](image_1.png)
+![Original](image_1.jpg)
 ![Ineffective Demo](screenshot_1.png)
 * **Input Image**: `image_1.jpg`
 * **Why it fails**: 
