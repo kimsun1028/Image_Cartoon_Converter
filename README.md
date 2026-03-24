@@ -1,20 +1,27 @@
-# Image Cartoon Converter
+# image_cartoon_converter
 
-Hi.
-This project is a very simple OpenCV script that turns a normal photo into a cartoon-style image.
+A Python tool using OpenCV to transform standard images into cartoon-style renderings by combining bilateral filtering and adaptive thresholding.
 
 ## Example Result
 
 ![Example Result](screenshot.png)
 
-## How to Run
+## Features
 
-1. Put `image.jpg` in the project folder.
-2. Run `Image_Cartoon_Converter.py`.
-3. You will see the original image and the cartoon result side by side.
+- **Cartoon Effect**: Converts photos into stylized cartoon art.
+- **Edge Detection**: Generates bold outlines using adaptive thresholding.
+- **Bilateral Filter**: Smoothes colors while preserving sharp edges.
+- **Comparison View**: Displays original and processed images side-by-side.
 
-## Tools Used
+## Project Files
 
-- Python
+- `Image_Cartoon_Converter.py`: Main execution script.
+- `image.jpg`: Input image file.
+- `screenshot.png`: Result screenshot for demonstration.
+- `cartoon_output.jpg`: The final processed output.
+
+## Requirements
+
+- Python 3.x
 - OpenCV (`cv2`)
 - NumPy
